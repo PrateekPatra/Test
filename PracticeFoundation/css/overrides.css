@@ -1,0 +1,60 @@
+/*-------------------Phone Default-----------------*/
+header{
+	background-color:lightgray;
+}
+header a.tel{
+	font-size:0.8em;
+	display: block;;
+	float: right;
+	margin-right: 1%;
+	color: red!important;
+	text-decoration: none;
+	text-align: center;
+	z-index: 999;
+}
+header ul.social{
+	margin: .5em 0 0 0;
+	float: right;
+	clear: right;
+}
+header ul.social li{
+	float: left;
+	list-style: none;
+}
+header ul.social li a{
+	margin: 0 0 5px 0;
+	width: 2.4em;
+	height: 2.4em;
+	display: block;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+header ul.social li.twitter a{
+	background-image: url(../Images/social_twitter.png);
+}
+header ul.social li.facebook a{
+	background-image: url(../Images/social_facebook.png);
+}
+header ul.social li.google a{
+	background-image: url(../Images/social_google.png);
+}
+div.logo{
+	height: 64px;
+	width: 64px;
+	background-repeat: no-repeat;
+	float: left;
+}
+/*-------------------Tablet Default-----------------*/
+@media only screen and (min-width: 40.063em){
+div.logo{
+	height: 128px;
+	width: 128px;
+}/*end of tablet*/
+/*-------------------Desktop Default-----------------*/
+@media only screen and (min-width: 64.063em){
+	div.logo{
+	height: 256px;
+	width: 256px;
+}
+}/*end of desktop*/
